@@ -1,0 +1,32 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+adad                                                                              0x0275      15
+_seed                                                                             0x0284       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key                                                                               R4,R5        2
+flag                                                                              R6,R7        2
+j                                                                                 R8,R9        2
+on                                                                                R10,R11      2
+k                                                                                 R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+encr_decr                                                                         0x00084     43
+keyboard_read                                                                     0x000AF     77
+main                                                                              0x000FC     48
+lcd_data                                                                          0x00133     13
+lcd_print                                                                         0x00140     15
+put_buff_G100                                                                     0x0014F     64
+_print_G100                                                                       0x0018F    308
+sprintf                                                                           0x002C3     52
+strlen                                                                            0x002F7     12
+strlenf                                                                           0x00303     13
